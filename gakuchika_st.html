@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ガクチカワーク | 学生向けインターンシップ特化型マッチング</title>
+    <link rel="stylesheet" href="style_gakuchika_st.css">   
+</head>
+<body>
+    <!-- Top bar -->
+    <header class="top-bar">
+        <div class="container top-bar-container">
+            <div class="logo"><div class="logo-icon">G</div><strong>ガクチカワーク（学生向け）</strong></div>
+            <div class="top-bar-buttons">
+                <button class="btn btn-primary" onclick="scrollToId('signup')">無料ではじめる</button>
+                <button class="btn btn-outline" onclick="scrollToId('signup')">募集を見てみる</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="section hero">
+        <div class="container grid grid-2 hero-grid">
+            <div>
+                <div class="badge">面接だけじゃ、あなたの良さは伝わりきらない。</div>
+                <h1 class="h1">インターンシップで“できる自分”を見せて、<br/>企業からスカウトを受けよう！</h1>
+                <ul class="hero-list">
+                    <li><span class="check-icon">✓</span><span>どの仕事が自分に合うのかわからない</span></li>
+                    <li><span class="check-icon">✓</span><span>実務経験ゼロで、面接で何を話せばいいかわからない</span></li>
+                    <li><span class="check-icon">✓</span><span>バイトや課題の頑張りをちゃんと評価してほしい</span></li>
+                    <li><span class="check-icon">✓</span><span>授業やサークルと両立できるインターンを探したい</span></li>
+                    <li><span class="check-icon">✓</span><span>そもそも就活が不安で、何から初めていいかわからない</span></li>
+                </ul>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToId('signup')">無料ではじめる</button>
+                    <button class="btn btn-outline" onclick="scrollToId('signup')">募集を見てみる</button>
+                </div>
+                <p class="hero-note">LINE/メールでかんたん登録・スマホ完全対応</p>
+            </div>
+            <div class="card shadow ui-mock">
+                <div class="ui-mock-header"><span class="h3">マイページ（サンプル）</span><span class="ui-mock-label">実績の見える化</span></div>
+                <div class="grid grid-3">
+                    <div class="card stat-card"><div class="h3">勤怠</div><div class="stat-value">24h</div><div class="stat-label">今月の稼働</div></div>
+                    <div class="card stat-card"><div class="h3">日報</div><div class="stat-value">12</div><div class="stat-label">提出数</div></div>
+                    <div class="card stat-card"><div class="h3">評価</div><div class="stat-value">4.5★</div><div class="stat-label">平均</div></div>
+                </div>
+                <div class="card" style="margin-top: 12px; padding: 12px;"><div class="h3">推薦コメント</div><p class="comment-text">「課題の切り分けが上手で、最後までやり切る」— 先輩メンター</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What -->
+    <section class="section" style="background: #fff;">
+        <div class="container">
+            <h2 class="h2">ガクチカワークって？</h2>
+            <div class="grid grid-2" style="margin-top: 16px; align-items: center;">
+                <div class="card"><div class="h3">リアルな実績を残せる</div><p>勤怠・日報・評価で、あなたの頑張りをデータ化</p></div>
+                <div class="card"><div class="h3">推薦がもらえる</div><p>先輩や教授、バイト先の上司から応援コメント</p></div>
+                <div class="card"><div class="h3">企業からスカウトが届く</div><p>プロフィールや評価を見てオファーがくる</p></div>
+                <div class="card"><div class="h3">入社後のミスマッチ減</div><p>実際に働いて相性チェック</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" style="background: #F0FDFA;">
+        <div class="container">
+            <h2 class="h2">主な機能</h2>
+            <div class="grid grid-3" style="margin-top: 16px;">
+                <div class="card"><div class="h3">プロフィール作成</div><p>学業・課外活動・作品をアピール</p></div>
+                <div class="card"><div class="h3">求人検索＆スカウト受信</div><p>条件に合う募集が届く／応募もできる</p></div>
+                <div class="card"><div class="h3">アプリ内チャット</div><p>人事や現場の先輩と気軽にやりとり</p></div>
+                <div class="card"><div class="h3">日報＆勤怠管理</div><p>成長の足跡を記録</p></div>
+                <div class="card"><div class="h3">推薦リクエスト</div><p>1タップで推薦依頼</p></div>
+                <div class="card"><div class="h3">評価スコア化</div><p>フィードバックを数値で確認</p></div>
+                <div class="card"><div class="h3">オファー受諾</div><p>高評価なら長期インターンや内定へ</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="section" style="background: #fff;">
+        <div class="container">
+            <h2 class="h2">使い方（3ステップ）</h2>
+            <ol class="steps-list">
+                <li><div class="chip">STEP 1</div><div class="h3">登録＆プロフィール作成（5分）</div></li>
+                <li><div class="chip">STEP 2</div><div class="h3">インターン参加（週1〜OK）</div></li>
+                <li><div class="chip">STEP 3</div><div class="h3">スカウト/オファーを受ける</div></li>
+            </ol>
+            <div class="hero-buttons" style="justify-content: center;">
+                <button class="btn btn-primary" onclick="scrollToId('signup')">無料ではじめる</button>
+                <button class="btn btn-outline" onclick="scrollToId('signup')">募集を見てみる</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Who -->
+    <section class="section" style="background: #F8FAFC;">
+        <div class="container">
+            <h2 class="h2">どんな学生に向いてる？</h2>
+            <div class="grid grid-2" style="margin-top: 16px;">
+                <div class="card"><p>「まずは実務を経験してみたい」</p></div>
+                <div class="card"><p>「面接より、現場で見せる方が得意」</p></div>
+                <div class="card"><p>「学業やバイトと両立したい（週1〜OKを探したい）」</p></div>
+                <div class="card"><p>「留学生として日本での就職を目指している」</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voices -->
+    <section class="section" style="background: #fff;">
+        <div class="container">
+            <h2 class="h2">先輩の声</h2>
+            <div class="grid grid-2" style="margin-top: 16px;">
+                <div class="card shadow"><div class="h3">文系3年｜未経験→マーケ長期インターン</div><p>“日報に毎日の学びを残せたので、面接で具体例を話せるように。企業からのスカウトも増え、内定につながりました。”</p></div>
+                <div class="card shadow"><div class="h3">理系M1｜研究×エンジニア実務</div><p>“研究でのスキルが業務でどう活きるかを実感。評価コメントが自信になりました。”</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="background: #F8FAFC;">
+        <div class="container">
+            <h2 class="h2">よくある質問</h2>
+            <div class="grid grid-2" style="margin-top: 16px;">
+                <div class="card"><div class="h3">登録は無料？</div><p>完全無料。すぐに求人チェック＆応募OK。</p></div>
+                <div class="card"><div class="h3">未経験でもOK？</div><p>もちろん。初心者歓迎・週1〜OKの募集も多数。</p></div>
+                <div class="card"><div class="h3">授業と両立できる？</div><p>できます。シフト柔軟な募集も多いです。</p></div>
+                <div class="card"><div class="h3">地方や遠方からでも使える？</div><p>はい。オンライン対応のインターンシップや、交通費支給ありの案件もあります。自宅からでも参加できるチャンスが広がります。</p></div>
+                <div class="card"><div class="h3">事前準備は？</div><p>自己紹介、得意分野、活動実績があればOK。作品URLがあればさらに◎</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="cta-band section">
+        <div class="container cta-band-container">
+            <h2 class="h2" style="color: #fff; margin: 0;">“面接だけ”に頼らない就活へ。</h2>
+            <div class="cta-band-buttons">
+                <button class="btn btn-outline" onclick="scrollToId('signup')">無料ではじめる</button>
+                <button class="btn btn-primary" onclick="scrollToId('signup')">募集を見てみる</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign up Form -->
+    <section id="signup" class="section" style="background: #ffffff;">
+        <div class="container grid grid-2 form-grid">
+            <div>
+                <h2 class="h2" style="text-align:left;">かんたん無料登録</h2>
+                <p class="lead" style="text-align:left;">インターンで、あなたの強みを“見える化”。企業からのオファーを掴もう。</p>
+            </div>
+            <form id="inquiryForm" class="card shadow">
+                <!-- Hidden fields to match the 'お問い合わせ一覧' sheet structure -->
+                <input type="hidden" name="landingPageID" value="Gakuchika_Work Students">
+                <input type="hidden" name="inquiryType" value="学生登録">
+                <input type="hidden" name="detailType" value="">
+                <input type="hidden" name="companyName" value="">
+                <input type="hidden" name="furigana" value="">
+                <input type="hidden" name="departmentName" value="">
+                <input type="hidden" name="phoneNumber" value="">
+
+                <div class="grid grid-2">
+                    <div><label class="h3">姓名<span class="required">*</span></label><input name="fullName" required placeholder="山田 太郎" /></div>
+                    <div><label class="h3">Eメールアドレス<span class="required">*</span></label><input name="email" required type="email" placeholder="you@example.com" /></div>
+                </div>
+                <div><label class="h3">得意分野（任意）</label><textarea name="message" rows="4" placeholder="例：デザイン / データ分析 / 接客 など"></textarea></div>
+                <label class="agree-label"><input type="checkbox" required/> 利用規約とプライバシーポリシーに同意します<span class="required">*</span></label>
+                <button class="btn btn-primary" type="submit" id="submitButton" style="width:100%;">登録してはじめる</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <small>&copy; 2025 GakuchikaWorks Inc.</small>
+            <nav class="footer-nav"><a href="#">利用規約</a><a href="#">プライバシーポリシー</a><a href="#">ヘルプ</a><a href="#">お問い合わせ</a></nav>
+        </div>
+    </footer>
+    
+    <script src="script_gakuchika_st.js"></script>
+</body>
+</html>
