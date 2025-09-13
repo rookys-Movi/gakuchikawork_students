@@ -54,3 +54,15 @@ img, table, .shadow-none {
     position: relative;
     z-index: 2;
 }
+
+.voices-section {
+    background-color: #f0f9ff;
+}
+/* Voices section specific styling */
+#voices .grid img {
+    max-width: 150px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
