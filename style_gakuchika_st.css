@@ -32,7 +32,7 @@ img, table, .shadow-none {
 /* Hero section with a different background for students */
 .hero-bg-student {
     background-color: #f0f9ff; /* A light blue to differentiate from employer page */
-    background-image: url('images/gakuchikapeople_student.png'); /* Optional: a different hero image */
+    background-image: url('images/gakuchikapeople.png'); /* Optional: a different hero image */
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
